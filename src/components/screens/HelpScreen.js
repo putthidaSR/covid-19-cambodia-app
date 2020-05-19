@@ -14,6 +14,17 @@ export default class HelpScreen extends Component {
     return (
       <SafeAreaView style={styles.container}>
 
+        <View style={{marginTop: 20, height: 200, alignItems: 'center'}}>
+          <Image
+            style={{width: 100, height: 100}}
+            source={require('./../../assets/images/01.png')}
+          />
+          <Image
+            style={{width: 100, height: 100}}
+            source={require('./../../assets/images/02.png')}
+          />
+
+        </View>
         <View style={{marginTop: 30}}>
           <ListItem
             title={'ក្រសួងសុខាភិបាលកម្ពុជា'}

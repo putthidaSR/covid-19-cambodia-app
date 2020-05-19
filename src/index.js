@@ -1,5 +1,6 @@
 import React from 'react';
 import {SafeAreaView, StyleSheet, View, Text} from 'react-native';
+import Routes from './routes';
 
 /**
  * The first component that the application will render when the app is loaded.

@@ -295,7 +295,7 @@
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = FR3Y5MZPVP;
 						LastSwiftMigration = 1120;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -730,10 +730,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Putthida Samrith (FR3Y5MZPVP)";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Putthida Samrith (FR3Y5MZPVP)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Putthida Samrith (FR3Y5MZPVP)";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development: putthidasamrith@yahoo.com (BZH9HF7VBV)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FR3Y5MZPVP;
 				ENABLE_BITCODE = NO;
@@ -750,7 +750,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ydr.Covid19Cambodia;
 				PRODUCT_NAME = Covid19Cambodia;
-				PROVISIONING_PROFILE_SPECIFIER = "Covid-19 Cambodia Distribution";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -763,8 +763,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Putthida Samrith (FR3Y5MZPVP)";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FR3Y5MZPVP;
 				INFOPLIST_FILE = Covid19Cambodia/Info.plist;
@@ -776,7 +776,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ydr.Covid19Cambodia;
 				PRODUCT_NAME = Covid19Cambodia;
-				PROVISIONING_PROFILE_SPECIFIER = "Covid-19 Cambodia Distribution";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

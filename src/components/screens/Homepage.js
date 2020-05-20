@@ -11,7 +11,7 @@ import {
   View,
   Dimensions,
 } from 'react-native';
-import {ListItem, Button, Text} from 'react-native-elements';
+import {ListItem, Text} from 'react-native-elements';
 import axios from 'axios';
 import moment from 'moment';
 
@@ -53,7 +53,6 @@ export default class Homepage extends Component {
 
     await axios.all([requestOne, requestTwo]).then(axios.spread((...responses) => {   
       const summaryResponse = responses[0].data;
-      const detailedCasesResponse = responses[1];
       
       const usDate = moment(summaryResponse.lastUpdate).format('YYYY-MM-DD HH:mm:ss');
       const cambodianDate = moment(usDate).add(14, 'hours').format('DD/MM/YYYY');

@@ -5,24 +5,18 @@
 import React, {Component} from 'react';
 import {
   ScrollView,
-  Image,
   StyleSheet,
   StatusBar,
   Platform,
   SafeAreaView,
   View,
   Dimensions,
-  FlatList,
-  TextInput,
-  ActivityIndicator,
-  Alert, Text
+  ActivityIndicator, Text
 } from 'react-native';
 
-import {ListItem, Button, SearchBar } from 'react-native-elements';
 import axios from 'axios';
 import moment from 'moment';
 
-import { PieChart } from 'react-native-chart-kit';
 
 export default class WorldScreen extends Component {
   constructor(props) {
@@ -45,7 +39,6 @@ export default class WorldScreen extends Component {
 
   componentDidMount() {
     this.getInitialData();
-    this.getDataByCountries();
   }
 
   async getDataByCountries() {
@@ -108,7 +101,7 @@ export default class WorldScreen extends Component {
             </View>
 
             <View style={{position: 'absolute', right: 0, marginRight: 20}}>
-              <Text style={{fontSize: 30, alignSelf: 'center', paddingVertical: 10}}>{this.state.totalConfirmedCases}</Text>
+              <Text style={{fontSize: 28, alignSelf: 'center', paddingVertical: 10}}>{this.state.totalConfirmedCases}</Text>
             </View>
           
           </View>
@@ -123,7 +116,7 @@ export default class WorldScreen extends Component {
             </View>
 
             <View style={{position: 'absolute', right: 0, marginRight: 20}}>
-              <Text style={{fontSize: 30, alignSelf: 'center', paddingVertical: 10, color: 'white'}}>{this.state.totalRecoveredCases}</Text>
+              <Text style={{fontSize: 28, alignSelf: 'center', paddingVertical: 10, color: 'white'}}>{this.state.totalRecoveredCases}</Text>
             </View>
 
           </View>
@@ -139,7 +132,7 @@ export default class WorldScreen extends Component {
             </View>
 
             <View style={{position: 'absolute', right: 0, marginRight: 20}}>
-              <Text style={{fontSize: 30, alignSelf: 'center', paddingVertical: 10, color: 'white'}}>{this.state.totalDeathCases}</Text>
+              <Text style={{fontSize: 28, alignSelf: 'center', paddingVertical: 10, color: 'white'}}>{this.state.totalDeathCases}</Text>
             </View>
 
           </View>

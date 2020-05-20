@@ -88,21 +88,21 @@ export default class Homepage extends Component {
         population: this.state.totalActiveCases,
         color: 'green',
         legendFontColor: '#7F7F7F',
-        legendFontSize: 12
+        legendFontSize: 11
       },
       {
         name: 'Recovered Cases',
         population: this.state.totalRecoveredCases,
         color: 'blue',
         legendFontColor: '#7F7F7F',
-        legendFontSize: 12,
+        legendFontSize: 11,
       },
       {
         name: 'Deaths',
         population: this.state.totalDeathCases,
         color: 'red',
         legendFontColor: '#7F7F7F',
-        legendFontSize: 12
+        legendFontSize: 11
       }
     ];
 

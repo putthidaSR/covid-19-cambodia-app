@@ -1,6 +1,6 @@
 # COVID-19 Cambodia Mobile App
 
-As I couldn't find any COVID-19 related apps written in [Khmer](https://en.wikipedia.org/wiki/Khmer_language) language, I built this project just for personal usage in order to get an up-to-date COVID-19 data in Cambodia.
+As I couldn't find any COVID-19 related apps written in [Khmer](https://en.wikipedia.org/wiki/Khmer_language) language, I built this project just for personal use in order to get an up-to-date COVID-19 data in Cambodia.
 
 The project is built with React-Native which will generate both iOS and Android apps.
 The [APIs](https://covid19.mathdro.id/) I was using to fetch COVID-19 data are provided by [mathdroid](https://github.com/mathdroid/covid-19-api). 
